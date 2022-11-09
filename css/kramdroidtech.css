@@ -1,0 +1,19 @@
+:root {
+  --clr-grey: #f3efe9;
+  --clr-maroon: #520b81;
+  --clr-red: #1310d0;
+  --clr-blue: #a2d3e9;
+  --clr-white: #ffff;
+}
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--clr-blue);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--clr-maroon);
+  cursor: pointer;
+}
